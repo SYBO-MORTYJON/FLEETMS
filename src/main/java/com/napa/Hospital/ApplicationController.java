@@ -11,4 +11,29 @@ public class ApplicationController {
         return "index";
     }
 
+    @GetMapping("/widgets")
+    public String widget(){
+        return "widgets";
+    }
+
+    @GetMapping("/login")
+    public String login(){
+        return "login";
+    }
+
+    @GetMapping("/_layout")
+    public String layout(){
+        return "_layout";
+    }
+
+    @GetMapping("/index2")
+    public String index2(){
+        return "index2";
+    }
+
+    @GetMapping("/hr")
+    public String hr(){
+        return "/hr/index";
+    }
+
 }
