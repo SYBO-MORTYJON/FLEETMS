@@ -45,6 +45,7 @@ public class ApplicationController {
         return "/parameters/index";
     }
 
+
     @GetMapping("/payroll")
     public String payroll() {
         return "/payroll/index";
